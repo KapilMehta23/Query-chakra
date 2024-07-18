@@ -1,0 +1,102 @@
+/* index.css */
+
+/* General styles */
+body {
+    font-family: Helvetica;
+    background-color: #FFF;
+    color: #1B262C;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #FFF;
+    color: #1B262C;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #FFF;
+    color: #1B262C;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #FFF;
+    color: #1B262C;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Button styles */
+.button {
+    background-color: #944E63;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.button:hover {
+    background-color: #B47B84;
+}
+
+/* Form styles */
+input[type="text"], textarea {
+    background-color: #FAF1E4;
+    border: 1px solid #B47B84;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus, textarea:focus {
+    outline: none;
+    border-color: #CAA6A6;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #FFF;
+}
+
+th {
+    background-color: #FFF;
+    color: #000000;
+}
+
+tr:nth-child(even) {
+    background-color: #FFF;
+}
+
+.special-div {
+    background-color: #FFE7E7;
+    border: 2px solid #944E63;
+    padding: 10px;
+}
+
+#unique-element {
+    color: #B47B84;
+    font-weight: bold;
+}
